@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(240, 240, 227) !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App {
+  background-color: rgb(240, 240, 227);
+}
+
+input.search-input {
+  margin: 0px 10px !important;
+  padding:10px !important;
+  border: 1px solid rgb(185, 183, 183) !important;
+  border-radius: 3px !important;
+  background: transparent !important;
+  height: 56px !important;
+  margin-top: 10px !important;
+  width: 400px !important;
+}
+
+.autocomplete-dropdown-container div{
+  width: 390px !important;
+  background: transparent !important;
+  border-bottom: 1px solid rgb(185, 183, 183) !important;
+  padding: 5px !important;
+}
+.autocomplete-dropdown-container {
+  border: 1px solid rgb(185, 183, 183) !important;
+  width: 400px !important;
+  margin-left: 22px;
+}
+.card_root {
+  max-width: 545px !important;
+  margin: 0 auto !important;
+
+}
+.margin-btn {
+  margin-top: 50px;
+}
+
+@media (max-width: 576px) {
+  .margin-btn {
+    margin-top: 20px;
+  }
+  input.search-input {
+    width: 330px !important;
+  }
+  .autocomplete-dropdown-container {
+    width: 330px !important;
+    margin-left: 12px;
+  }
+  .autocomplete-dropdown-container div{
+    width: 330px !important;
+  }
+  .card_media{
+    height: 300px !important;
+  }
+  
+}
+
